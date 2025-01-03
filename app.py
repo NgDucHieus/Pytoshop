@@ -31,7 +31,7 @@ app.add_app("Crop an Image", Crop.app)
 app.add_app("Edge and Contour detection ", Edge_Cont.app)
 app.add_app("Face detection", Face_detect.app)
 app.add_app("Feature Detection", Feature_detect.app)
-app.add_app("Meet the team", abtus.app)
+app.add_app("Meet authors", abtus.app)
 
 
 # The main app
