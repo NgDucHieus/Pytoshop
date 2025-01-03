@@ -2,19 +2,6 @@
 
 A photoshop web app deployed in streamlit having various filters and image processing capabilities built using Python and OpenCV modules.
 
-
-
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-![issues](https://img.shields.io/github/issues/adarshsankarrs/PhotoshopApp)
-![forks](https://img.shields.io/github/forks/adarshsankarrs/PhotoshopApp)
-![stars](https://img.shields.io/github/stars/adarshsankarrs/PhotoshopApp)
-
-
-
-## Author
-
-- [Adarsh Sankar R S](https://github.com/adarshsankarrs)
-
 ## Table of contents
 - [Features](#Features)
 - [Installation](#Installation-steps)
