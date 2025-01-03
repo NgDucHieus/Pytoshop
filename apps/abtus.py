@@ -9,12 +9,9 @@ def app():
     # st.header('Meet the Team')
     # st.image(im1, width=750)
 
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.subheader("Nguyen Duc Hieu")
-        st.markdown('*AM.EN.U4AIE19018*')
-        st.image("imgs/hieu.jpg")
+    st.subheader("Nguyen Duc Hieu")
+    st.markdown('*AM.EN.U4AIE19018*')
+    st.image("imgs/hieu.jpg")
 
    
 
