@@ -32,12 +32,12 @@ A photoshop web app deployed in streamlit having various filters and image proce
 
 - Converting Image to Sketch
 - Image Inpainting
-- Document Scanner
-- Adding Titles to Images
-- Crop Images
 - Edge and contour detection
 - Face detection
 - Feature Detection
+- Image Enhancement Point Processing
+- Image Enhancement Histogram Equalization
+- Image Enhancement Spatial Filtering
 
 ## Installation steps
 
