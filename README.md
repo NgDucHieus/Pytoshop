@@ -81,6 +81,11 @@ A photoshop web app deployed in streamlit having various filters and image proce
 	(Webpage interface is same as Bright and Detail enhancement pages)
 https://github.com/user-attachments/assets/0169a648-f09c-4574-a7f8-15d39a2b520b
 
+#### Thresholding, Piecewise Linear (Gray-level Slicing), Bit Plane Slicing:
+
+https://github.com/user-attachments/assets/81fd3155-5aa1-4959-9933-057a9803754c
+
+
 ### Filter Modules:
 
 #### High Contrast:
