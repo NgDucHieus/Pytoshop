@@ -85,6 +85,17 @@ A photoshop web app deployed in streamlit having various filters and image proce
 src="MDimgs/a1.png"<br>
 </p>
 
+### Filter Modules:
+
+#### High Contrast:
+	Input Types Accepted: jpg, jpeg, png
+	(Webpage interface is same as Bright and Detail enhancement pages)
+
+<p align="center">
+<img style="display: block; margin: auto;"
+src="MDimgs/a1.png"<br>
+</p>
+
 
 #### Bright:
 	Input Types Accepted: jpg, jpeg, png
