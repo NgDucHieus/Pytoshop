@@ -74,16 +74,26 @@ A photoshop web app deployed in streamlit having various filters and image proce
 
 ## Screenshots
 
-### Filter Modules:
+### Image Enhancement Point Processing:
 
-#### High Contrast:
+#### Grey Level Transformation:
 	Input Types Accepted: jpg, jpeg, png
 	(Webpage interface is same as Bright and Detail enhancement pages)
+https://github.com/user-attachments/assets/0169a648-f09c-4574-a7f8-15d39a2b520b
 
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a1.png"<br>
-</p>
+#### Thresholding, Piecewise Linear (Gray-level Slicing), Bit Plane Slicing:
+
+https://github.com/user-attachments/assets/81fd3155-5aa1-4959-9933-057a9803754c
+
+
+### Image Enhancement: Histogram Equalization and Matching:
+
+https://github.com/user-attachments/assets/16606f32-7d6f-42df-9a26-8e6f7a6dbe5f
+
+### Image Enhancement: Spatial Filtering
+
+https://github.com/user-attachments/assets/d34abc63-3188-4803-a354-d738e53add52
+
 
 ### Filter Modules:
 
