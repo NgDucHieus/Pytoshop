@@ -32,12 +32,12 @@ A photoshop web app deployed in streamlit having various filters and image proce
 
 - Converting Image to Sketch
 - Image Inpainting
-- Document Scanner
-- Adding Titles to Images
-- Crop Images
 - Edge and contour detection
 - Face detection
 - Feature Detection
+- Image Enhancement Point Processing
+- Image Enhancement Histogram Equalization
+- Image Enhancement Spatial Filtering
 
 ## Installation steps
 
@@ -73,6 +73,17 @@ A photoshop web app deployed in streamlit having various filters and image proce
 
 
 ## Screenshots
+
+### Filter Modules:
+
+#### High Contrast:
+	Input Types Accepted: jpg, jpeg, png
+	(Webpage interface is same as Bright and Detail enhancement pages)
+
+<p align="center">
+<img style="display: block; margin: auto;"
+src="MDimgs/a1.png"<br>
+</p>
 
 ### Filter Modules:
 
@@ -281,37 +292,12 @@ src="MDimgs/a20.png"<br>
 
 
 
-#### Doc Scanner Module:
-	Input Types Accepted: jpg, jpeg, png
-	(Webpage interface is same as Bright and Detail enhancement pages)
-
-
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a21.png"<br>
-</p>
-
-               
-
-#### Add Title to Image Module:
-	Input Types Accepted: jpg, jpeg, png
-	(Webpage interface is same as Bright and Detail enhancement pages)
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a22.png"<br>
-</p>
+        
 
 #### Edge and contour module
 <p align="center">           
 <img style="display: block; margin: auto;"
 src="MDimgs/a23.png"<br>
-</p>
-
-#### Crop Image Module:
-	Input Types Accepted: jpg, jpeg, png
-<p align="center">           
-<img style="display: block; margin: auto;"
-src="MDimgs/a25.png"<br>
 </p>
 
 
