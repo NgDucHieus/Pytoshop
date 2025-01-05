@@ -90,6 +90,9 @@ https://github.com/user-attachments/assets/81fd3155-5aa1-4959-9933-057a9803754c
 
 https://github.com/user-attachments/assets/16606f32-7d6f-42df-9a26-8e6f7a6dbe5f
 
+### Image Enhancement: Spatial Filtering
+
+https://github.com/user-attachments/assets/d34abc63-3188-4803-a354-d738e53add52
 
 
 ### Filter Modules:
