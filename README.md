@@ -74,16 +74,16 @@ A photoshop web app deployed in streamlit having various filters and image proce
 
 ## Screenshots
 
-### Filter Modules:
+### Image Enhancement Point Processing:
 
-#### High Contrast:
+#### Grey Level Transformation:
 	Input Types Accepted: jpg, jpeg, png
 	(Webpage interface is same as Bright and Detail enhancement pages)
 
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a1.png"<br>
-</p>
+<video width="640" height="360" controls>
+  <source src="MDimgs/linear.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Filter Modules:
 
