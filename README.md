@@ -86,6 +86,12 @@ https://github.com/user-attachments/assets/0169a648-f09c-4574-a7f8-15d39a2b520b
 https://github.com/user-attachments/assets/81fd3155-5aa1-4959-9933-057a9803754c
 
 
+### Image Enhancement: Histogram Equalization and Matching:
+
+https://github.com/user-attachments/assets/16606f32-7d6f-42df-9a26-8e6f7a6dbe5f
+
+
+
 ### Filter Modules:
 
 #### High Contrast:
