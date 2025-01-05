@@ -4,7 +4,7 @@ import pandas as pd
 from PIL import Image, ImageOps
 import cv2
 from multiapp import MultiApp
-from apps import enhance, equal, home,sketch,inpaint,stadap,textonimg,Edge_Cont,Face_detect,Crop,filters,abtus,Feature_detect
+from apps import Spatial, enhance, equal, home,sketch,inpaint,stadap,textonimg,Edge_Cont,Face_detect,Crop,filters,abtus,Feature_detect
 app = MultiApp()
 
 
@@ -34,6 +34,7 @@ app.add_app("Feature Detection", Feature_detect.app)
 app.add_app("Meet authors", abtus.app)
 app.add_app("Image Enhancement Point Processing", enhance.app)
 app.add_app("Image Enhancement Histogram Equalization", equal.app)
+app.add_app("Image Enhancement Spatial Filtering", Spatial.app)
 
 
 

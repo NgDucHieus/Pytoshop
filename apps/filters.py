@@ -320,7 +320,6 @@ def app():
         st.title('Image Filters')
         ## Add bulletins
         st.subheader("Select from the following filters", anchor=None)
-        st.header(" &#128072", anchor=None)
 
         st.subheader("Available Filters", anchor=None)
 

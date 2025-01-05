@@ -8,7 +8,7 @@ import cv2
 
 DEMO_IMAGE = 'imgs/Tiger.jpg'
 def app():
-    @st.cache
+    @st.cache_data
     def img2sketch(photo, k_size):
         #Read Image
         img = photo
@@ -42,7 +42,7 @@ def app():
         demo_image = DEMO_IMAGE
         image = np.array(Image.open(demo_image))
 
-    st.image(image, caption=f"Original Image",use_column_width= True)
+    st.image(image, caption=f"Original Image",use_container_width= True)
 
 
     if st.button("CONVERT"):
@@ -52,7 +52,7 @@ def app():
         resized_image = img2sketch(image , k_size)
 
         st.image(
-        resized_image, caption=f"Sketched image", use_column_width=True)
+        resized_image, caption=f"Sketched image", use_container_width=True)
 
 
 
