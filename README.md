@@ -281,37 +281,12 @@ src="MDimgs/a20.png"<br>
 
 
 
-#### Doc Scanner Module:
-	Input Types Accepted: jpg, jpeg, png
-	(Webpage interface is same as Bright and Detail enhancement pages)
-
-
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a21.png"<br>
-</p>
-
-               
-
-#### Add Title to Image Module:
-	Input Types Accepted: jpg, jpeg, png
-	(Webpage interface is same as Bright and Detail enhancement pages)
-<p align="center">
-<img style="display: block; margin: auto;"
-src="MDimgs/a22.png"<br>
-</p>
+        
 
 #### Edge and contour module
 <p align="center">           
 <img style="display: block; margin: auto;"
 src="MDimgs/a23.png"<br>
-</p>
-
-#### Crop Image Module:
-	Input Types Accepted: jpg, jpeg, png
-<p align="center">           
-<img style="display: block; margin: auto;"
-src="MDimgs/a25.png"<br>
 </p>
 
 
