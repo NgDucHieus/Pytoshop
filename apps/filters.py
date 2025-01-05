@@ -17,7 +17,7 @@ def app():
             demo_image = DEMO_IMAGE
             image = np.array(Image.open(demo_image))
 
-        st.image(image, caption=f"Original Image",use_column_width= True)
+        st.image(image, caption=f"Original Image",use_container_width= True)
         return image
 
     def img2bright(photo):
@@ -334,7 +334,7 @@ def app():
 
         if useWH:    
             resized_image = img2bright(image)
-            st.image(resized_image, caption=f"Image with Bright Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Bright Filter", use_container_width=True)
         
     if selected_box == 'Detail Enchance':
         st.title('Detail Enchancement')
@@ -342,8 +342,8 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             dst, dst2 = img2enh(image)
-            st.image(dst, caption=f"Detail Enhance", use_column_width=True)
-            st.image(dst2, caption=f"Kernal Sharpening", use_column_width=True)
+            st.image(dst, caption=f"Detail Enhance", use_container_width=True)
+            st.image(dst2, caption=f"Kernal Sharpening", use_container_width=True)
 
     if selected_box == 'Invert':
         st.title('Invert Image')
@@ -352,7 +352,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             res = img2inv(image)
-            st.image(res, caption=f"Inverted Image", use_column_width=True)
+            st.image(res, caption=f"Inverted Image", use_container_width=True)
 
     if selected_box == 'Summer':
         st.title('Summer Filter')
@@ -361,7 +361,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             res = img2sum(image)
-            st.image(res, caption=f"Image with Summer Filter", use_column_width=True)
+            st.image(res, caption=f"Image with Summer Filter", use_container_width=True)
 
     if selected_box == 'Winter':
         st.title('Winter Filter')
@@ -370,7 +370,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             res = img2win(image)
-            st.image(res, caption=f"Image with Winter Filter", use_column_width=True)
+            st.image(res, caption=f"Image with Winter Filter", use_container_width=True)
 
     if selected_box == 'Daylight':
         st.title('Daylight Filter')
@@ -379,7 +379,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             res = img2day(image)
-            st.image(res, caption=f"Image with Daylight Filter", use_column_width=True)
+            st.image(res, caption=f"Image with Daylight Filter", use_container_width=True)
 
     if selected_box == 'High Contrast':
         st.title('High Contrast Filter')
@@ -388,7 +388,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             res = img2cont(image)
-            st.image(res, caption=f"Image with High Contrast", use_column_width=True)
+            st.image(res, caption=f"Image with High Contrast", use_container_width=True)
 
     if selected_box == 'Sepia':
         st.title('Sepia Filter')
@@ -397,7 +397,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             resized_image = img2sepia(image)
-            st.image(resized_image, caption=f"Image with Sepia Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Sepia Filter", use_container_width=True)
 
     if selected_box == 'Splash':
         st.title('Splash Filter')
@@ -409,14 +409,14 @@ def app():
             demo_image = SP_DEMO_IMAGE
             image = np.array(Image.open(demo_image))
 
-        st.image(image, caption=f"Original Image",use_column_width= True)
+        st.image(image, caption=f"Original Image",use_container_width= True)
 
         useWH = st.button('CONVERT')
         if useWH:    
             resized_image = img2splash(image)
             splash_image = SP_IMAGE
             resized_image = np.array(Image.open(splash_image))
-            st.image(resized_image, caption=f"Image with Splash Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Splash Filter", use_container_width=True)
 
     if selected_box == 'Emboss':
         st.title('Emboss Filter')
@@ -425,7 +425,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             resized_image = img2emb(image)
-            st.image(resized_image, caption=f"Image with Emboss Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Emboss Filter", use_container_width=True)
 
     if selected_box == '60s TV':
         st.title('60s TV Filter')
@@ -443,11 +443,11 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:
             r1 = img2tone(im1, 0)
-            st.image(r1, caption=f"Dual Tone with Red Channel", use_column_width=True)    
+            st.image(r1, caption=f"Dual Tone with Red Channel", use_container_width=True)    
             r2 = img2tone(im2, 1)
-            st.image(r2, caption=f"Dual Tone with Green Channel", use_column_width=True)
+            st.image(r2, caption=f"Dual Tone with Green Channel", use_container_width=True)
             r3 = img2tone(im3, 2)
-            st.image(r3, caption=f"Dual Tone with Blue Channel", use_column_width=True)
+            st.image(r3, caption=f"Dual Tone with Blue Channel", use_container_width=True)
 
     
     if selected_box == 'Cartoon':
@@ -457,7 +457,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             resized_image = img2cartoon(image)
-            st.image(resized_image, caption=f"Image with Cartoon Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Cartoon Filter", use_container_width=True)
 
     if selected_box == 'Pencil Drawing':
         st.title('Pencil Drawing Filter')
@@ -466,7 +466,7 @@ def app():
         useWH = st.button('CONVERT')
         if useWH:    
             resized_image = img2pen(image)
-            st.image(resized_image, caption=f"Image with Pencil Drawing Filter", use_column_width=True)
+            st.image(resized_image, caption=f"Image with Pencil Drawing Filter", use_container_width=True)
     
     if selected_box == 'Comic':
         st.title('Comic Filter Using K-Means')

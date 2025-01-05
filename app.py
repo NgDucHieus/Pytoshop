@@ -25,16 +25,13 @@ app.add_app("Home", home.app)
 app.add_app("Add filters to image", filters.app)
 app.add_app("Sketch", sketch.app)
 app.add_app("Image inpainting", inpaint.app)
-app.add_app("Doc Scanner", stadap.app)
-app.add_app("Add Title to image", textonimg.app)
-app.add_app("Crop an Image", Crop.app)
 app.add_app("Edge and Contour detection ", Edge_Cont.app)
 app.add_app("Face detection", Face_detect.app)
 app.add_app("Feature Detection", Feature_detect.app)
-app.add_app("Meet authors", abtus.app)
 app.add_app("Image Enhancement Point Processing", enhance.app)
 app.add_app("Image Enhancement Histogram Equalization", equal.app)
 app.add_app("Image Enhancement Spatial Filtering", Spatial.app)
+app.add_app("Meet authors", abtus.app)
 
 
 
