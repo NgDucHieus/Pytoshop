@@ -79,11 +79,7 @@ A photoshop web app deployed in streamlit having various filters and image proce
 #### Grey Level Transformation:
 	Input Types Accepted: jpg, jpeg, png
 	(Webpage interface is same as Bright and Detail enhancement pages)
-
-<video width="640" height="360" controls>
-  <source src="MDimgs/linear.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/0169a648-f09c-4574-a7f8-15d39a2b520b
 
 ### Filter Modules:
 
